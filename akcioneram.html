@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>О нас</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div id="header__nav" class="header__inner">
+                <div>
+                    <a class="logo" href="#top">
+                        <picture class="logo__img">
+                            <!-- <source srcset="images/logo-mobile.png" media="(max-width: 600px)">-->
+                            <!-- Замены логотипа -->
+                            <img src="images/logov3.png" alt="logo" />
+                        </picture>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <button class="menu__btn">
+                        <span class="menu__btn-line"></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="menu__list-item ">
+                            <a class="menu__list-link" href="about.html">О нас</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="uslugi.html">Услуги</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="geosluzba.html">Геослужба</a>
+                        </li>
+                        <li class="menu__list-item active">
+                            <a class="menu__list-link" href="akcioneram.html">Акционерам</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="contact.html">Контакты</a>
+                        </li>
+
+
+
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="content" data-aos="fade-left" data-aos-duration="3000">
+
+        <div class="content__bg"></div>
+
+        <div class="container">
+            <div class="content__inner">
+                <div class="content__sidemenu" data-aos="fade-up-right" data-aos-duration="3000">
+
+                    <ul>
+                        <li><a class="active" href="akcioneram.html">Отчет за 2020 год </a>
+                            <div class="content__sidemenu-line"></div>
+                        </li>
+                        <li><a href="povestka2.html"> Повестка для собрания 2021г </a>
+                            <div class="content__sidemenu-line"></div>
+                        </li>
+                        <li><a href="povestka.html">Повестка для собрания 30 января 2020г </a>
+                            <div class="content__sidemenu-line"></div>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="content__item">
+
+                    <div class="content__title">
+                        <div class="content__title-img">
+                            <img src="images/Line.png" alt="">
+                        </div>
+
+                        <h1>
+                            Отчет за 2020 год
+                        </h1>
+                    </div>
+
+                    <div class="content__text-akcioneram">
+                        <a href="images/otchet2020.png" data-lightbox="mygallery"
+                            data-title="Отчет 2020"><img
+                                src="images/otchet2020.png" alt="Responsive image"></a>
+                       
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        © 2020 «Белкомплекспроект»
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            disable: 'mobile',
+        });
+    </script>
+</body>
+
+</html>

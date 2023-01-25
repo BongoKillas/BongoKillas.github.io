@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4a17ddbd-9bab-4a61-a281-eaba0aeb14d6&lang=ru_RU"
+        type="text/javascript" type="text/javascript"></script>
+    <title>Контакты</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div id="header__nav" class="header__inner">
+                <div>
+                    <a class="logo" href="#top">
+                        <picture class="logo__img">
+                            <!-- <source srcset="images/logo-mobile.png" media="(max-width: 600px)">-->
+                            <!-- Замены логотипа -->
+                            <img src="images/logov3.png" alt="logo" />
+                        </picture>
+                    </a>
+                </div>
+                <nav class="menu">
+                    <button class="menu__btn">
+                        <span class="menu__btn-line"></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="menu__list-item ">
+                            <a class="menu__list-link" href="about.html">О нас</a>
+                        </li>
+                        <li class="menu__list-item ">
+                            <a class="menu__list-link" href="uslugi.html">Услуги</a>
+                        </li>
+                        <li class="menu__list-item ">
+                            <a class="menu__list-link" href="geosluzba.html">Геослужба</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="akcioneram.html">Акционерам</a>
+                        </li>
+                        <li class="menu__list-item active">
+                            <a class="menu__list-link" href="contact.html">Контакты</a>
+                        </li>
+
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="top">
+        <img class="top__crops" src="images/Crops.png" alt="" data-aos="fade-left" data-aos-duration="3000">
+        <div class="container">
+            <div class="top__inner">
+                <div class="top__text" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="top__title">
+                        <h1>
+                            Контакты
+                    </div>
+                    <div class="top__subtitle">
+                        <h2>
+                            +375 (17) 337-44-00
+
+                        </h2>
+                    </div>
+                    <div class="top__subtitle">
+                        <h2>
+                            info@belkomplexproekt.by
+
+                        </h2>
+                    </div>
+                    <div class="top__subtitle">
+                        <h2>
+                            Республика Беларусь,
+                            220029, г.Минск, ул.Чичерина, 21
+
+                        </h2>
+                    </div>
+                    <div class="top__btn">
+                        <a href="otdely.html">
+                            <button>
+                                Отделы
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="top__map" data-aos="fade-left" data-aos-duration="3000">
+                    <img src="images/border.png" alt="">
+                    <div id="map"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mail" id="form_mail">
+        <div class="container">
+            <h2 class="mail__title" data-aos="fade-right" data-aos-duration="3000">
+                Свяжитесь с нами
+            </h2>
+            <div class="mail__inner" data-aos="fade-right" data-aos-duration="3000">
+                <!-- <div class="mail__item">
+                    1
+                </div>
+                <div class="mail__item">
+                    1
+                </div>
+                <div class="mail__item">
+                    1
+                </div>
+                <div class="mail__btn">
+                   <button>Отправить</button>
+                </div> -->
+
+
+
+
+                <form>
+
+                    <input type="hidden" name="project_name" value="'БЕЛКОМПЛЕКСПРОЕКТ' Сайт">
+                    <input type="hidden" name="admin_email" value="krichkosv@mail.ru">
+                    <input type="hidden" name="form_subject" value="Форма Отпарвки с Сайта">
+
+
+
+
+                    <div class="mail__item">
+                        <input required name="Name" type="text" placeholder="Имя">
+                    </div>
+
+                    <div class="mail__item-2">
+                        <input required name="Email" type="text" placeholder="E-mail">
+                        <input required name="Phone" type="text" placeholder="Телфон">
+                    </div>
+
+
+
+                    <div class="mail__item-textarea">
+                        <textarea rows="10" cols="20" required name="Text" placeholder="Текст"></textarea>
+                    </div>
+
+                    <div class="mail__btn">
+                        <button>Отправить</button>
+                    </div>
+
+                </form>
+
+
+
+                <!-- <form>
+                   
+                    <input type="hidden" name="project_name" value="'БЕЛКОМПЛЕКСПРОЕКТ' Сайт">
+                    <input type="hidden" name="admin_email" value="krichkosv@mail.ru">
+                    <input type="hidden" name="form_subject" value="Форма Отпарвки с Сайта">
+                   
+                    <input name="Name" type="text" placeholder="Имя">
+                    <input name="Email" type="text" placeholder="E-mail">
+
+
+                    <textarea name="Text" placeholder="Текст"></textarea>
+                   
+                    <div  class="mail__btn">
+                        <button>Отправить</button>
+                    </div>
+                </form> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        © 2020 «Белкомплекспроект»
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            disable: 'mobile',
+        });
+    </script>
+    <script>
+        ymaps.ready(init);
+        function init() {
+            // Создание карты.
+            var myMap = new ymaps.Map("map", {
+                // Координаты центра карты.
+                // Порядок по умолчанию: «широта, долгота».
+                // Чтобы не определять координаты центра карты вручную,
+                // воспользуйтесь инструментом Определение координат.
+                center: [53.915491, 27.565972],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 16
+            });
+            myMap.balloon.open(myMap.getCenter(), {
+                contentHeader: 'ОАО "БЕЛКОМПЛЕКСПРОЕКТ"',
+                contentBody: 'г.Минск, ул.Чичерина, 21'
+
+            });
+
+
+        }
+    </script>
+
+</body>
+
+</html>
